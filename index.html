@@ -372,7 +372,8 @@
         <div class="footer-form-div">
           <p class="footer-form-p">Subscribe</p>
           <form class="footer-form">
-            <input type="email" name="user_email" class="footer-form-email" placeholder="E-mail" required />
+            <label for="usre_email">E-mail</label>
+            <input type="email" name="user_email" id="usre_email" class="footer-form-email" placeholder="E-mail" required />
             <button type="submit" class="footer-form-submit-btn">Subscribe<svg class="footer-email-icons" width="24" height="20">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
@@ -393,7 +394,7 @@
             <label class="modal-form-field">
               <span class="modal-form-input-desc"> Name </span>
               <span class="modal-form-input-wrapper">
-                <input type="text" name="user_name" class="modal-form-input" required/>
+                <input type="text" name="user_name" id="comment" class="modal-form-input" required/>
                 <svg class="modal-form-icon" width="12" height="12">
                   <use href="./images/icons.svg#icon-user"></use>
                 </svg>
@@ -417,9 +418,9 @@
                 </svg>
               </span>
             </label>
-          <label class="modal-form-field">
+          <label class="modal-form-field-comment">
             <span class="modal-form-input-desc"> Comment </span>
-           <textarea name="user_message" id="" cols="30" rows="10" class="modal-form-message" placeholder="Text input"></textarea>
+           <textarea name="user_message" id="message" cols="30" rows="10" class="modal-form-message" placeholder="Text input"></textarea>
           </label>
           <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visuallu-hidden" />
           <label for="user-policy" class="modal-form-check-dasc">I accept the terms and conditions of the&nbsp;<a href="" class="modal-form-check-a">Privacy Policy</a></label>

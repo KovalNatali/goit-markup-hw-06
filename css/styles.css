@@ -674,7 +674,7 @@ align-items: center;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 408px;
-  height: 584px;
+ 
   background-color: #FCFCFC;
   padding: 72px 24px 24px;
 
@@ -685,6 +685,7 @@ align-items: center;
  right: 24px;
   width: 24px;
   height: 24px;
+  cursor: pointer;
   background-color: #E7E9FC;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -750,6 +751,9 @@ margin-bottom: 16px;
  }
  .modal-form-field {
   margin-bottom: 8px;
+ }
+ .modal-form-field-comment {
+  margin-bottom: 16px;
  }
  .modal-form-icon {
   position: absolute;
